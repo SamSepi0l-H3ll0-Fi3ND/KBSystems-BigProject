@@ -16,7 +16,7 @@ const Card = ({}) => {
           <div class="btn btn-outline ml-1 btn-xs">Piłka nożna</div>
           <div class="btn btn-outline  ml-1 btn-xs">Alkohol</div>
           <div class="btn btn-outline ml-1 btn-xs">Web Design</div>
-          <div class="btn btn-outline  ml-1 btn-xs">Kolana gryca</div>
+          <div class="btn btn-outline  ml-1 btn-xs">Games</div>
         </div>
         <div class="btn-group mt-6">
           <button class="btn btn-accent btn-outline">Follow</button>
