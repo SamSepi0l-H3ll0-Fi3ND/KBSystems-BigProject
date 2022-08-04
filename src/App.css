@@ -1,0 +1,104 @@
+.valid {
+  box-shadow: inset 0 0 1em green, 0 0 1em green;
+}
+.notValid {
+  box-shadow: inset 0 0 1em red, 0 0 1em red;
+}
+.medium {
+  box-shadow: inset 0 0 1em orange, 0 0 1em orange;
+}
+.strong {
+  box-shadow: inset 0 0 1em green, 0 0 1em green;
+}
+
+.drop-zone {
+  max-width: 200px;
+  height: 200px;
+  padding: 25px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 2px double #6419e6;
+  border-radius: 10px;
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
+.cardDesign {
+}
+
+.drop-zonea {
+  max-width: 200px;
+  height: 200px;
+  padding: 25px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  cursor: pointer;
+  color: #cccccc;
+  border: 2px double rgb(100, 25, 230);
+  border-radius: 10px;
+}
+
+.drop-zone--overa {
+  border-style: solid;
+}
+
+.drop-zone__inputa {
+  display: none;
+}
+
+.drop-zone__thumba {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #cccccc;
+  background-size: cover;
+  position: relative;
+}
+
+.drop-zone__thumba::after {
+  content: attr(data-label);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 5px 0;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.75);
+  font-size: 14px;
+  text-align: center;
+}
